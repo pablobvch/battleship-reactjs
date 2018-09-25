@@ -1,0 +1,18 @@
+{
+  "parser":"babel-eslint",
+  "env":{
+    "browser":true,
+    "jest":true,
+    "es6":true
+  },
+  "extends":[
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins":[
+    "flowtype"
+  ]
+}
